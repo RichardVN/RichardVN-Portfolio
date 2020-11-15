@@ -105,22 +105,38 @@ html {
     background-color: cadetblue;
 }
 
+.ui.grid {
+    padding: 0em !important;
+    margin: 0em !important;
+}
+
+.ui.projects.grid {
+    margin: 5em !important;
+}
+
+.ui.raised.segment {
+    padding: 0em !important;
+    border: 2em !important;
+    margin-bottom: 5em !important;
+}
+
 div.project-image {
     padding: 0em !important;
     margin: 0em !important;
 }
 
 div.project-info {
-    padding: 2em !important;
+    padding: 3em !important;
     margin: 0em !important;
 }
 
-
-
-.ui.card {
-    padding-left: 0 !important;
+div.ui.hidden.menu {
+    position: relative;
 }
 
-.ui.segments {
-    width: 50%;
+/*Override*/
+
+.ui.menu {
+    opacity: 1;
+    z-index: 1001 !important;
 }
