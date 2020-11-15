@@ -23,17 +23,15 @@
     <script src="js/mastheadTransition.js"></script>
 </head>
 
-<body>
+<body id="portfolio">
 
     <!-- Following Menu -->
-    <div class="ui large top fixed hidden menu">
-        <div class="ui container">
-            <a class="active item">Home</a>
-            <a class="anchor item" href="#projects">Portfolio</a>
-            <a class="item">About</a>
-            <a class="item">Contact</a>
+    <div id="following-menu" class="ui large three item top fixed hidden menu">
 
-        </div>
+        <a class="anchor item" href="#projects-goto">Projects</a>
+        <a class="item">About</a>
+        <a class="item">Contact</a>
+
     </div>
 
 
@@ -42,10 +40,9 @@
     <div class="ui inverted vertical masthead center aligned segment">
 
         <div class="ui container">
-            <div class="ui large secondary inverted pointing menu">
+            <div class="ui huge secondary inverted pointing menu">
 
-                <a class="active item">Home</a>
-                <a class="item" href="#projects">Portfolio</a>
+                <a class="item" href="#projects-goto">Projects</a>
                 <a class="item">About</a>
                 <a class="item">Contact</a>
 
@@ -56,22 +53,22 @@
             <h1 class="ui inverted header">
                 Hi, I'm Richard!
             </h1>
-            <h2>(I like coding things.)</h2>
+            <h2>(and I like to code things.)</h2>
             <!-- <div class="ui huge primary button">Get Started <i class="right arrow icon"></i></div> -->
         </div>
 
     </div>
 
 
-    <div class="ui vertical stripe segment">
-        <h1 id="projects" class="ui centered header">Projects</h1>
+    <div class="section ui vertical stripe segment">
+        <h1 id="projects-goto" class="ui centered header">Projects</h1>
 
-        <div class="projects ui one column stackable center aligned page grid">
-            <div class="ui raised segment">
+        <div class=" ui one column stackable center aligned page grid">
+            <div class="project ui raised segment">
                 <div class="ui row">
-                    <div class="column fourteen wide" style="background-color: aqua;">
+                    <div class="column fourteen wide">
                         <div class="ui stackable center aligned page celled grid">
-                            <div class="project-image ui ten wide column" style="background-color: rgb(189, 47, 146);">
+                            <div class="project-image ui ten wide column">
                                 <div class="project ui image">
                                     <div class="ui dimmer">
                                         <div class="content">
@@ -80,28 +77,42 @@
                                             <div class="ui button">View</div>
                                         </div>
                                     </div>
-                                    <img src="images/sample.jpg">
+                                    <img src="images/sample.jpg" class="ui image">
                                 </div>
                             </div>
-                            <div class="project-info ui six wide left aligned column"
-                                style="background-color: rgb(9, 47, 146);">Lorem
-                                ipsum dolor sit amet consectetur
-                                adipisicing elit. Accusantium, facilis!</div>
+                            <div class="project-info ui six wide left aligned column">
+                                <div class="ui  large header">Project 1</div>
+                                <p>Lorem
+                                    ipsum dolor sit amet consectetur
+                                    adipisicing elit. Accusantium, facilis!</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="ui raised segment">
+            <div class="project ui raised segment">
                 <div class="ui row">
-                    <div class="column fourteen wide" style="background-color: aqua;">
-                        <div class="ui  stackable center aligned page celled grid">
-                            <div class="project-image ui ten wide column" style="background-color: rgb(189, 47, 146);">
-                                <img src="images/sample2.jpg" alt="" class="ui image"></div>
-                            <div class="project-info ui six wide left aligned column"
-                                style="background-color: rgb(9, 47, 146);">Lorem
-                                ipsum dolor sit amet
-                                consectetur adipisicing elit. Accusantium, facilis!</div>
+                    <div class="column fourteen wide">
+                        <div class="ui stackable center aligned page celled grid">
+                            <div class="project-image ui ten wide column">
+                                <div class="project ui image">
+                                    <div class="ui dimmer">
+                                        <div class="content">
+                                            <h2 class="ui inverted header">Title</h2>
+                                            <div class="ui primary button">Add</div>
+                                            <div class="ui button">View</div>
+                                        </div>
+                                    </div>
+                                    <img src="images/sample2.jpg" class="ui image">
+                                </div>
+                            </div>
+                            <div class="project-info ui six wide left aligned column">
+                                <div class="ui  large header">Project 1</div>
+                                <p>Lorem
+                                    ipsum dolor sit amet consectetur
+                                    adipisicing elit. Accusantium, facilis!</p>
+                            </div>
                         </div>
                     </div>
                 </div>
