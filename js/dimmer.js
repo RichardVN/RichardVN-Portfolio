@@ -1,5 +1,6 @@
 $('.project.image')
   .dimmer({
-    on: 'hover'
+    on: 'hover',
+    opacity:0.7
   })
 ;
