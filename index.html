@@ -29,7 +29,7 @@
     <div id="following-menu" class="ui large three item top fixed hidden menu">
 
         <a class="anchor item" href="#projects-goto">Projects</a>
-        <a class="item">About</a>
+        <a class="item" href="#about-goto">About</a>
         <a class="item">Contact</a>
 
     </div>
@@ -43,7 +43,7 @@
             <div class="ui huge secondary inverted pointing menu">
 
                 <a class="item" href="#projects-goto">Projects</a>
-                <a class="item">About</a>
+                <a class="item" href="#about-goto">About</a>
                 <a class="item">Contact</a>
 
             </div>
@@ -53,7 +53,7 @@
             <h1 class="ui inverted header">
                 Hi, I'm Richard!
             </h1>
-            <h2>(and I like to code things.)</h2>
+            <h2>I like making things.</h2>
             <!-- <div class="ui huge primary button">Get Started <i class="right arrow icon"></i></div> -->
         </div>
 
@@ -72,19 +72,22 @@
                                 <div class="project ui image">
                                     <div class="ui dimmer">
                                         <div class="content">
-                                            <h2 class="ui inverted header">Title</h2>
-                                            <div class="ui primary button">Add</div>
-                                            <div class="ui button">View</div>
+                                            <button class="ui large button" id="pathfinder-site-button">
+                                                <i class="sign out icon"></i>
+                                                Visit Website
+                                            </button>
+                                            <button class="ui large github button" id="pathfinder-github-button">
+                                                <i class="github icon"></i>
+                                                Github
+                                            </button>
                                         </div>
                                     </div>
                                     <img src="images/sample.jpg" class="ui image">
                                 </div>
                             </div>
                             <div class="project-info ui six wide left aligned column">
-                                <div class="ui  large header">Project 1</div>
-                                <p>Lorem
-                                    ipsum dolor sit amet consectetur
-                                    adipisicing elit. Accusantium, facilis!</p>
+                                <div class="ui large header">Pathfinder</div>
+                                <p>A web application to help hiking enthusiasts find their favorite trails.</p>
                             </div>
                         </div>
                     </div>
@@ -99,19 +102,22 @@
                                 <div class="project ui image">
                                     <div class="ui dimmer">
                                         <div class="content">
-                                            <h2 class="ui inverted header">Title</h2>
-                                            <div class="ui primary button">Add</div>
-                                            <div class="ui button">View</div>
+                                            <button class="ui large button" id="portfolio-site-button">
+                                                <i class="sign out icon"></i>
+                                                Visit Website
+                                            </button>
+                                            <button class="ui large github button" id="portfolio-github-button">
+                                                <i class="github icon"></i>
+                                                Github
+                                            </button>
                                         </div>
                                     </div>
                                     <img src="images/sample2.jpg" class="ui image">
                                 </div>
                             </div>
                             <div class="project-info ui six wide left aligned column">
-                                <div class="ui  large header">Project 1</div>
-                                <p>Lorem
-                                    ipsum dolor sit amet consectetur
-                                    adipisicing elit. Accusantium, facilis!</p>
+                                <div class="ui medium header">My Portfolio Website</div>
+                                <p>This portfolio website was a project in and of itself!</p>
                             </div>
                         </div>
                     </div>
@@ -121,39 +127,36 @@
         </div>
     </div>
 
+    <div class="section ui vertical stripe segment">
+        <h1 id="about-goto" class="ui centered header">About Me</h1>
+    </div>
 
-    <h2>SOME STUFF</h2>
+    <div class="section ui vertical stripe segment">
+        <h1 id="contact-goto" class="ui centered header">Contact Me</h1>
+    </div>
 
-    <div class="ui inverted vertical footer segment">
-        <div class="ui container">
-            <div class="ui stackable inverted divided equal height stackable grid">
-                <div class="three wide column">
-                    <h4 class="ui inverted header">About</h4>
-                    <div class="ui inverted link list">
-                        <a href="#" class="item">Sitemap</a>
-                        <a href="#" class="item">Contact Us</a>
-                        <a href="#" class="item">Religious Ceremonies</a>
-                        <a href="#" class="item">Gazebo Plans</a>
-                    </div>
+    <div class="section ui inverted vertical footer segment">
+        <div class="links ui container">
+            <div class="ui stackable inverted center aligned stackable grid">
+                <div class="row">
+                    <a href="https://github.com/RichardVN">
+                        <i class="big github icon"></i>
+                        Github
+                    </a>
                 </div>
-                <div class="three wide column">
-                    <h4 class="ui inverted header">Services</h4>
-                    <div class="ui inverted link list">
-                        <a href="#" class="item">Banana Pre-Order</a>
-                        <a href="#" class="item">DNA FAQ</a>
-                        <a href="#" class="item">How To Access</a>
-                        <a href="#" class="item">Favorite X-Men</a>
-                    </div>
+                <div class="row">
+                    <a href="">
+                        <i class="big linkedin icon"></i>
+                        LinkedIn
+                    </a>
                 </div>
-                <div class="seven wide column">
-                    <h4 class="ui inverted header">Footer Header</h4>
-                    <p>Extra space for a call to action inside the footer that could help re-engage users.</p>
-                </div>
+
             </div>
         </div>
     </div>
 
     <script src="js/dimmer.js"></script>
+    <script src="js/buttons.js"></script>
 </body>
 
 </html>
