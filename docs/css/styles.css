@@ -62,7 +62,7 @@ div#following-menu.menu.transition .item:hover {
 }
 
 .masthead.segment {
-    min-height: 750px;
+    min-height: 500px;
     padding: 1em 0em;
 }
 
@@ -75,7 +75,7 @@ div#following-menu.menu.transition .item:hover {
 }
 
 .masthead h1.ui.header {
-    margin-top: 3em;
+    margin-top: 1.5em;
     margin-bottom: 0em;
     font-size: 4em;
     font-weight: normal;
