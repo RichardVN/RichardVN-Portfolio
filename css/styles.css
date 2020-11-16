@@ -191,6 +191,11 @@ div.section img.image {
     border-radius: 10px 0px 0px 10px;
 }
 
+div.section .ui.large.button:hover {
+    color: #00aff0;
+    background-color: #F5F5F5;
+}
+
 div.ui.vertical.stripe.segment>h1 {
     font-family: 'Assistant', sans-serif;
     color: #5A5959;
@@ -203,6 +208,30 @@ div.ui.header {
 
 .ui.menu {
     z-index: 1001 !important;
+}
+
+div.section div.contact.two.column.grid {
+    margin-left: 12em;
+    margin-right: 12em;
+}
+
+div.section div.contact-links.six.wide.column {
+    padding-left: 5em;
+    padding-top: 5em;
+}
+
+div.section div.contact-links.six.wide.column div.row {
+    padding: 1em 0em;
+}
+
+div.section div.contact-links.six.wide.column div.row a {
+    font-size: 1.2em;
+    color: #333;
+}
+
+div.section div.contact-links.six.wide.column div.row a:hover {
+    font-size: 1.2em;
+    color: #00aff0;
 }
 
 div.section div.links a {
