@@ -2,7 +2,7 @@ $(document).ready(function () {
     // transition for top menu
     $('.ui.masthead .ui.container h1').transition({
         animation: 'fade in',
-        duration: '1s',
+        duration: '1.5s',
         onComplete: () =>  $('.ui.masthead .ui.container h2').transition({
             animation: 'fade in',
             duration: '1s'
