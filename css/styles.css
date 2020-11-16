@@ -25,7 +25,7 @@ body#portfolio {
     font-weight: bold;
 }
 
-/* homepage menu */
+/* homepage top menu */
 
 .ui.secondary.inverted.menu {
     opacity: 1;
@@ -121,20 +121,15 @@ div.section.footer.segment {
     background-color: #333;
 }
 
-.secondary.pointing.menu .toc.item {
-    display: none;
-}
 
 @media only screen and (max-width: 700px) {
     .ui.fixed.menu {
         display: none !important;
     }
-    .secondary.pointing.menu .item, .secondary.pointing.menu .menu {
+    /* .secondary.pointing.menu .item, .secondary.pointing.menu .menu {
         display: none;
-    }
-    .secondary.pointing.menu .toc.item {
-        display: block;
-    }
+    } */
+ 
     .masthead.segment {
         min-height: 350px;
     }
