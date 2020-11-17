@@ -50,7 +50,7 @@
         </div>
 
         <div class="ui text container">
-            <h1 class="ui inverted header">
+            <h1 hidden class="ui inverted header">
                 Hi, I'm Richard!
             </h1>
             <h2 hidden>I like making things.</h2>
@@ -141,9 +141,9 @@
 
     <div class="section about-me ui vertical stripe segment">
         <h1 id="about-goto" class="ui centered header">About Me</h1>
-        <div class="ui two column grid ">
+        <div class="ui two column stackable grid ">
             <div class="ui six wide column">
-                <img src="images/avatar.png" class="ui fluid image">
+                <img src="images/avatar.png" class="ui fluid medium image">
             </div>
             <div class="ui ten wide column">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla deserunt
                 animi quo unde eum harum ducimus iure porro praesentium exercitationem provident obcaecati, cupiditate
@@ -158,8 +158,8 @@
     <div class="section contact ui vertical stripe segment">
         <h1 id="contact-goto" class="ui centered header">Contact Me!</h1>
         <div class="contact ui two column stackable grid">
-            <div class="ten wide column">
-                <form class="ui form">
+            <div class="eight wide column">
+                <form class="ui form" action="https://formspree.io/f/xknpzqzb" method="POST">
                     <div class="required field">
                         <label>Name</label>
                         <input type="text" name="name" placeholder="Special Human">
@@ -172,6 +172,7 @@
                         <label>Text</label>
                         <textarea type="text" name="message" placeholder="Drop your message in here."></textarea>
                     </div>
+                    <button class="fluid ui button">Send Message</button>
                     <button class="ui button" type="submit">Submit</button>
                 </form>
             </div>
@@ -193,6 +194,8 @@
             </div>
         </div>
     </div>
+
+    
 
     <div class="section footer ui inverted vertical footer segment">
         <div class="links ui container">

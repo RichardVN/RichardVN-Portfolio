@@ -211,9 +211,23 @@ div.section.contact div.contact.two.column.grid {
     margin-right: 0em;
 }
 
-div.section.contact div.ten.wide.column {
+div.section.contact div.eight.wide.column {
     padding-left: 13em;
     padding-top: 2em;
+}
+
+div.section.contact div.eight.wide.column button.ui.button {
+    color: white;
+    /* background-color: #00aff0; */
+    background-color: #51a1c4;
+    ;
+}
+
+div.section.contact div.eight.wide.column button.ui.button:hover {
+    color: white;
+    /* background-color: #00aff0; */
+    background-color: #97e7ff;
+    ;
 }
 
 div.section.contact div.six.wide.column {
