@@ -38,15 +38,17 @@ body#portfolio {
 
 div#following-menu.menu {
     z-index: 1001 !important;
-}
-
-div#following-menu.menu {
     display: none;
+    background: #242e42;
 }
 
 div#following-menu.menu.transition {
-    background: hsla(218, 29%, 20%, 1);
     border: 0;
+}
+
+
+div#following-menu.menu.transition:hover {
+    opacity: 1;
 }
 
 div#following-menu.menu.transition .item {
@@ -152,7 +154,7 @@ div.section {
     color: #5A5959;
 }
 
-div.ui.section.vertical.stripe.segment>h1 {
+div.ui.section.vertical.stripe.segment h1 {
     font-family: 'Assistant', sans-serif;
     color: #5A5959;
     margin-bottom: 1em;
@@ -206,45 +208,49 @@ div.section.about-me div.ui.two.column.grid {
     margin-right: 12em;
 }
 
+div.section.about-me div.bio.ui.column{
+    font-size: 1.2em;
+}
+
 div.section.contact div.contact.two.column.grid {
     margin-left: 0em;
     margin-right: 0em;
 }
 
-div.section.contact div.eight.wide.column {
-    padding-left: 13em;
+div.section.contact div.first.six.wide.column {
+    padding-left: 1em;
     padding-top: 2em;
 }
 
-div.section.contact div.eight.wide.column button.ui.button {
+div.section.contact div.first.six.wide.column button.ui.button {
     color: white;
     /* background-color: #00aff0; */
     background-color: #51a1c4;
     ;
 }
 
-div.section.contact div.eight.wide.column button.ui.button:hover {
+div.section.contact div.first.six.wide.column button.ui.button:hover {
     color: white;
     /* background-color: #00aff0; */
     background-color: #97e7ff;
     ;
 }
 
-div.section.contact div.six.wide.column {
-    padding-left: 5em;
+div.section.contact div.second.six.wide.column {
+    padding-left: 2em;
     padding-top: 5em;
 }
 
-div.section.contact div.six.wide.column div.row {
+div.section.contact div.second.six.wide.column div.row {
     padding: 1em 0em;
 }
 
-div.section.contact div.six.wide.column div.row a {
+div.section.contact div.second.six.wide.column div.row a {
     font-size: 1.2em;
     color: #333;
 }
 
-div.section.contact div.six.wide.column div.row a:hover {
+div.section.contact div.second.six.wide.column div.row a:hover {
     font-size: 1.2em;
     color: #00aff0;
 }
@@ -257,4 +263,8 @@ div.section.footer div.links a {
 div.section.footer div.links a:hover {
     font-size: 1.2em;
     color: #ffffff;
+}
+
+div.ui.dimmer{
+    border-radius: 10px 0px 0px 10px;
 }
