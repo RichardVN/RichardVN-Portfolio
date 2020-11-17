@@ -1,11 +1,11 @@
 $(document).ready(function () {
-    // transition for top menu
+    // transition for masthead headers
     $('.ui.masthead .ui.container h1').transition({
         animation: 'fade in',
-        duration: '1.3s',
+        duration: '.8s',
         onComplete: () =>  $('.ui.masthead .ui.container h2').transition({
             animation: 'fade in',
-            duration: '1s'
+            duration: '.6s'
         })
     })
 
@@ -13,7 +13,7 @@ $(document).ready(function () {
     $(".masthead").visibility({
         once: false,
         onBottomPassed: function () {
-            $(".fixed.menu").transition("fade in");
+            $(".fixed.menu").transition("fade in", "800ms");
         },
         onBottomPassedReverse: function () {
             $(".fixed.menu").transition("fade out");
