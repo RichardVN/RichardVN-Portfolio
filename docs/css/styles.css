@@ -208,8 +208,13 @@ div.section.about-me div.ui.two.column.grid {
     margin-right: 12em;
 }
 
+div.section.about-me div.avatar.ui.column{
+    background-color: red;
+    margin-left: 2em;
+}
+
 div.section.about-me div.bio.ui.column{
-    font-size: 1.2em;
+    font-size: 1.4em;
 }
 
 div.section.contact div.contact.two.column.grid {
