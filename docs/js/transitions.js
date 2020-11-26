@@ -2,7 +2,7 @@ $(document).ready(function () {
     // transition for masthead headers
     $('.ui.masthead .ui.container h1').transition({
         animation: 'fade in',
-        duration: '.8s',
+        duration: '1s',
         onComplete: () =>  $('.ui.masthead .ui.container h2').transition({
             animation: 'fade in',
             duration: '.6s'
