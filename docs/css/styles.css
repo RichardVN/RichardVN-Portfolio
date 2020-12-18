@@ -46,7 +46,6 @@ div#following-menu.menu.transition {
     border: 0;
 }
 
-
 div#following-menu.menu.transition:hover {
     opacity: 1;
 }
@@ -177,7 +176,7 @@ div.section.projects div.ui.one.column.grid {
     margin: 0em 4em;
 }
 
-div.section.projects div.project-image.ten.wide.column {
+#projects div.project-image.ten.wide.column {
     padding: 0em;
     margin: 0em;
 }
@@ -208,11 +207,11 @@ div.section.about-me div.ui.two.column.grid {
     margin-right: 12em;
 }
 
-div.section.about-me div.avatar.ui.column{
+div.section.about-me div.avatar.ui.column {
     margin-left: 2em;
 }
 
-div.section.about-me div.bio.ui.column{
+div.section.about-me div.bio.ui.column {
     font-size: 1.4em;
 }
 
@@ -259,15 +258,29 @@ div.section.contact div.second.six.wide.column div.row a:hover {
     color: #00aff0;
 }
 
-div.section.footer div.links a {
+@media (max-width:991px) {
+    
+    #projects .ui.one.column.grid .project.ui.raised.segment div.project-image.ui.ten.wide.column {
+        padding: 0em !important;
+        margin: 0em;
+    }
+    #footer div.links div.row {
+        margin-top: 1.5em;
+    }
+    #footer div.links div.row:first-child {
+        margin-top: 0em;
+    }
+}
+
+#footer div.links a {
     font-size: 1.6em;
     color: #CCCCCC;
 }
 
-div.section.footer div.links a:hover {
+#footer div.links a:hover {
     color: #ffffff;
 }
 
-div.ui.dimmer{
+div.ui.dimmer {
     border-radius: 10px 0px 0px 10px;
 }
