@@ -203,16 +203,7 @@ div.ui.header {
     color: #5A5959;
 }
 
-div.section.about-me div.ui.two.column.grid {
-    margin-left: 12em;
-    margin-right: 12em;
-}
-
-div.section.about-me div.avatar.ui.column {
-    margin-left: 2em;
-}
-
-div.section.about-me div.bio.ui.column {
+div.section.about-me div.clearing.segment {
     font-size: 1.4em;
 }
 
